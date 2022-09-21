@@ -1,0 +1,27 @@
+{
+  "name": "@anopszetex/string-util",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node index.test.js",
+    "test:dev": "npx nodemon index.test.js",
+    "test:cov": "npx c8 --all --exclude node_modules/* npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anopszetex/npm-workspace.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anopszetex/npm-workspace/issues"
+  },
+  "homepage": "https://github.com/anopszetex/npm-workspace#readme",
+  "devDependencies": {
+    "c8": "^7.12.0",
+    "nodemon": "^2.0.20"
+  }
+}
