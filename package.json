@@ -1,6 +1,6 @@
 {
   "name": "@anopszetex/npm-workspace",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "NPM Workspaces + Code Coverage with c8",
   "main": "index.js",
   "scripts": {
